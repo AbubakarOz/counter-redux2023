@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 
 const App = () => {
-  const num = useSelector((state) => state.number);
+  const num = useSelector((state) => state.number.number);
   const dispatch = useDispatch();
 
   const handleStart = () => {
